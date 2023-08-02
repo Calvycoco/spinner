@@ -1,5 +1,5 @@
 const spinner = () => {
-  const spinny = ['\r| ','\r/ ', '\r- ', '\r\\ ', '\r|'];
+  const spinny = ['\r| ','\r/ ', '\r- ', '\r\\ ', '\r|']; //Declare an array of spinny's positions
   let delay = 0; //set delay of index
 
   for (let i in spinny) { // loop through array (spinny)
