@@ -1,4 +1,4 @@
-const spinner = () => {     //Create a function that  the objects
+const spinner = () => {
   const spinny = ['\r| ','\r/ ', '\r- ', '\r\\ ', '\r|'];
   let delay = 0; //set delay of index
 
