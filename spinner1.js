@@ -44,5 +44,5 @@ setTimeout(() => {
 }, 2100);
 
 setTimeout(() => {
-  process.stdout.write('\r|   \n');
+  process.stdout.write('\r|   \n'); // Requires a \n at the end so the cursor could end on the next line!!
 }, 2300);
